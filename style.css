@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    margin-top: 44px;
+    margin-left: 42px;
+}
+
+main{
+    width: 100%;
+    margin-top: 100px;
+    font-size: 0; /* remove o espaço entre inline-blocks */
+}
+
+.logo-main{
+    display: inline-block;
+    vertical-align: middle;
+    width: 45%;
+    height: auto;
+    margin-left: 8%;
+}
+
+.link-header{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #525252;
+    margin-right: 32px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.button-header{
+    width: 124px;
+    height: 51px;
+    background: #6FBF44;
+    border-radius: 7px;
+    border: none;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.button-header:hover{
+    transform: scale(1.1);
+}
+
+.text-main{
+    display: inline-block;
+    vertical-align: middle;
+    width: 38%;
+    margin-left: 5%;
+    font-size: 16px; /* restaura o tamanho do texto */
+}
+
+h1{
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 82px;
+    color: #080808;
+    margin-bottom: 32px;
+}
+
+span{
+    font-family: "Great Vibes", cursive;
+    font-weight: 600;
+    color: #59a730;
+}
+
+p{
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 42px;
+    color: #080808;
+}
+
+.link-main{
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 50px;
+    letter-spacing: 0.1px;
+    color: #6FBF44;
+    text-decoration: none;
+}
